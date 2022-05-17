@@ -421,6 +421,7 @@
 23Q7|Saturday
 23Q8|tomorrow
 23Q81|the day after tomorrow
+23Q9|yesterday
 23R|day and night
 23R1|day of 24 hours, natural day
 23R10|'Giorno naturale', 'Carro del giorno naturale' (Ripa)
@@ -1179,6 +1180,7 @@
 25FF312|cockatrice, a two-legged dragon with a rooster's head
 25FF32|fabulous animals ~ song-birds
 25FF32(...)|song-birds (with NAME) - FF - fabulous animals
+25FF32(BLACKBIRD)|song-birds: blackbird - FF - fabulous animals
 25FF32(CROW)|song-birds: crow - FF - fabulous animals
 25FF32(FINCH)|song-birds: finch - FF - fabulous animals
 25FF32(GOLDFINCH)|song-birds: goldfinch - FF - fabulous animals
@@ -1192,6 +1194,7 @@
 25FF32(STARLING)|song-birds: starling - FF - fabulous animals
 25FF32(SWALLOW)|song-birds: swallow - FF - fabulous animals
 25FF32(THRUSH)|song-birds: thrush - FF - fabulous animals
+25FF32(TIT)|song-birds: tit - FF - fabulous animals
 25FF32(WAGTAIL)|song-birds: wagtail - FF - fabulous animals
 25FF32(WARBLER)|song-birds: warbler - FF - fabulous animals
 25FF32(WHITE THROAT)|song-birds: white throat - FF - fabulous animals
@@ -1486,6 +1489,7 @@
 25G3(OAK)|trees: oak
 25G3(OLEASTER)|trees: oleaster
 25G3(OLIVE-TREE)|trees: olive-tree
+25G3(ORANGE-TREE)|trees: orange-tree
 25G3(PALM-TREE)|trees: palm-tree
 25G3(PEACH-TREE)|trees: peach-tree
 25G3(PEAR-TREE)|trees (with NAME)
@@ -1521,6 +1525,7 @@
 25G4(ALOE)|plants and herbs: aloe
 25G4(AMARANTH)|plants and herbs: amaranth
 25G4(ARTICHOKE)|plants and herbs: artichoke
+25G4(BARLEY)|plants and herbs: barley
 25G4(BASIL)|plants and herbs: basil
 25G4(BEAN)|plants and herbs: bean
 25G4(CABBAGE)|plants and herbs: cabbage
@@ -1543,12 +1548,15 @@
 25G4(HYSSOP)|plants and herbs: hyssop
 25G4(IVY)|plants and herbs: ivy
 25G4(LETTUCE)|plants and herbs: lettuce
+25G4(LOTUS)|plants and herbs: lotus
 25G4(LUPIN)|plants and herbs: lupin
 25G4(MANDRAKE)|plants and herbs: mandrake
 25G4(MARJORAM)|plants and herbs: marjoram
+25G4(MINT)|plants and herbs: mint
 25G4(MISTLETOE)|plants and herbs: mistletoe
 25G4(NETTLE)|plants and herbs: nettle
 25G4(ORIGANUM)|plants and herbs: origanum
+25G4(PARSLEY)|plants and herbs: parsley
 25G4(PEA)|plants and herbs: pea
 25G4(PENNYROYAL)|plants and herbs: pennyroyal
 25G4(PEONY)|plants and herbs: peony
@@ -1558,6 +1566,7 @@
 25G4(RUE)|plants and herbs: rue
 25G4(SAFFRON)|plants and herbs: saffron
 25G4(SAGE)|plants and herbs: sage
+25G4(SAVORY)|plants and herbs: savory
 25G4(STINGING-NETTLE)|plants and herbs: stinging-nettle
 25G4(STRAWBERRY)|plants and herbs: strawberry
 25G4(SUNDEW)|plants and herbs: sundew
@@ -1573,6 +1582,7 @@
 25G41(BUTTERCUP)|flowers: buttercup
 25G41(CARNATION)|flowers: carnation
 25G41(COLUMBINE)|flowers: columbine
+25G41(CORNFLOWER)|flowers: cornflower
 25G41(CROCUS)|flowers: crocus
 25G41(HELIOTROPE)|flowers: heliotrope
 25G41(HYACINTH)|flowers: hyacinth
@@ -1625,6 +1635,7 @@
 25GG21(CHERRY)|fruits: cherry - GG - fantastic plants, fabulous vegetation
 25GG21(CHESTNUT)|fruits: chestnut - GG - fantastic plants, fabulous vegetation
 25GG21(FIG)|fruits: fig - GG - fantastic plants, fabulous vegetation
+25GG21(HAZELNUT)|fruits: hazelnut - GG - fantastic plants, fabulous vegetation
 25GG21(GOURD)|fruits: gourd - GG - fantastic plants, fabulous vegetation
 25GG21(LEMON)|fruits: lemon - GG - fantastic plants, fabulous vegetation
 25GG21(MEDLAR)|fruits: medlar - GG - fantastic plants, fabulous vegetation
@@ -1680,6 +1691,7 @@
 25GG3(MYRRH-TREE)|trees: myrrh-tree - GG - fantastic plants, fabulous vegetation
 25GG3(OAK)|trees: oak - GG - fantastic plants, fabulous vegetation
 25GG3(OLIVE-TREE)|trees: olive-tree - GG - fantastic plants, fabulous vegetation
+25GG3(ORANGE-TREE)|trees: orange-tree - GG - fantastic plants, fabulous vegetation
 25GG3(PALM-TREE)|trees: palm-tree - GG - fantastic plants, fabulous vegetation
 25GG3(PEACH-TREE)|trees: peach-tree - GG - fantastic plants, fabulous vegetation
 25GG3(PINE)|trees: pine - GG - fantastic plants, fabulous vegetation
@@ -1712,6 +1724,7 @@
 25GG4(ALOE)|plants and herbs: aloe - GG - fantastic plants, fabulous vegetation
 25GG4(AMARANTH)|plants and herbs: amaranth - GG - fantastic plants, fabulous vegetation
 25GG4(ARTICHOKE)|plants and herbs: artichoke - GG - fantastic plants, fabulous vegetation
+25GG4(BARLEY)|plants and herbs: barley - GG - fantastic plants, fabulous vegetation
 25GG4(BASIL)|plants and herbs: basil - GG - fantastic plants, fabulous vegetation
 25GG4(BEAN)|plants and herbs: bean - GG - fantastic plants, fabulous vegetation
 25GG4(CABBAGE)|plants and herbs: cabbage - GG - fantastic plants, fabulous vegetation
@@ -1763,6 +1776,7 @@
 25GG41(BUTTERCUP)|flowers: buttercup - GG - fantastic plants, fabulous vegetation
 25GG41(CARNATION)|flowers: carnation - GG - fantastic plants, fabulous vegetation
 25GG41(COLUMBINE)|flowers: columbine - GG - fantastic plants, fabulous vegetation
+25GG41(CORNFLOWER)|flowers: cornflower - GG - fantastic plants, fabulous vegetation
 25GG41(CROCUS)|flowers: crocus - GG - fantastic plants, fabulous vegetation
 25GG41(HELIOTROPE)|flowers: heliotrope - GG - fantastic plants, fabulous vegetation
 25GG41(HYACINTH)|flowers: hyacinth - GG - fantastic plants, fabulous vegetation
@@ -2622,6 +2636,7 @@
 31A2536|hand(s) towards the mouth
 31A25361|whistling with fingers
 31A25362|pulling at the corners of the mouth
+31A25363|licking food from a finger
 31A2537|hand(s) towards the ear(s)
 31A25371|cupping one's ear
 31A25372|scratching one's ear
@@ -3196,6 +3211,8 @@
 31AA22621|hair - AA - female human figure
 31AA22622|body hair - AA - female human figure
 31AA22623|pubic hair - AA - female human figure
+31AA22624|skin colour - AA - female human figure
+31AA22624(...)|skin colour (with FITZPATRICK number) - AA - female human figure
 31AA2263|muscles - AA - female human figure
 31AA2264|tendons, sinews - AA - female human figure
 31AA2265|nerves - AA - female human figure
@@ -3943,7 +3960,7 @@
 31E23|violent death, being killed; being mishandled and maltreated; seeking death
 31E231|violent death ~ elements
 31E2311|violent death ~ water
-31E23111|drowning (violent death ~ water)
+31E23111|drowning, ’walking the plank'
 31E231111|keelhauling
 31E23112|continuous dripping (violent death ~ water)
 31E2312|violent death ~ fire
@@ -4290,7 +4307,7 @@
 32B311(SCOTS)|Europeans: Scots
 32B311(SERBIANS)|Europeans: Serbians
 32B311(SLAVS)|Europeans: Slavs
-32B311(SLOWAKIANS)|Europeans: Slowakians
+32B311(SLOVAKS)|Europeans: Slovaks
 32B311(SPANIARDS)|Europeans: Spaniards
 32B311(SWEDES)|Europeans: Swedes
 32B311(WALLOONS)|Europeans: Walloons
@@ -4650,6 +4667,7 @@
 34A42|earning money with monkey
 34A43|earning money with guinea-pig
 34A44|earning money with other animals
+34A5|snake charmer
 34A9|man tormenting animal(s)
 34B|domestic animals, kept in and outside the house
 34B1|domestic animals, kept in the house

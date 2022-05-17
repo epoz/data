@@ -2188,6 +2188,7 @@
 25G41(BUTTERCUP)|bouton d'or
 25G41(CARNATION)|oeillet
 25G41(COLUMBINE)|ancolie
+25G41(CORNFLOWER)|bleuet
 25G41(CROCUS)|crocus
 25G41(HELIOTROPE)|héliotrope
 25G41(HYACINTH)|hyacinthe
@@ -5785,6 +5786,7 @@
 34A41|ours
 34A42|singe
 34A43|cochon d'Inde
+34A5|serpent
 34A9|maltraiter
 34A9|tourmenter
 34B|animal domestique

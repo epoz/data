@@ -421,6 +421,7 @@
 23Q7|samedi
 23Q8|demain
 23Q81|après-demain
+23Q9|hier
 23R|jour et nuit
 23R1|jour de 24 heures, jour astronomique, sidéral
 23R10|'Giorno naturale', 'Carro del giorno naturale' (Ripa)
@@ -1179,6 +1180,7 @@
 25FF312|cocatrix, un dragon à deux pattes avec une tête de coq
 25FF32|animaux fabuleux ~ oiseaux chanteurs
 25FF32(...)|oiseaux chanteurs (avec NOM) - FF - animaux fabuleux
+25FF32(BLACKBIRD)|oiseaux chanteurs: merle - FF - animaux fabuleux
 25FF32(CROW)|oiseaux chanteurs : corneille - FF - animaux fabuleux
 25FF32(FINCH)|oiseaux chanteurs : pinson - FF - animaux fabuleux
 25FF32(GOLDFINCH)|oiseaux chanteurs : chardonneret - FF - animaux fabuleux
@@ -1486,6 +1488,7 @@
 25G3(OAK)|arbres : chêne
 25G3(OLEASTER)|arbres: olivier sauvage
 25G3(OLIVE-TREE)|arbres : olivier
+25G3(ORANGE-TREE)|arbres : oranger
 25G3(PALM-TREE)|arbres : palmier
 25G3(PEACH-TREE)|arbres : pêcher
 25G3(PEAR-TREE)|arbres (avec NOM)
@@ -1521,6 +1524,7 @@
 25G4(ALOE)|plantes et herbes : aloès
 25G4(AMARANTH)|plantes et herbes : amarante
 25G4(ARTICHOKE)|plantes et herbes : artichaut
+25G4(BARLEY)|plantes et herbes : orge
 25G4(BASIL)|plantes et herbes : basilic
 25G4(BEAN)|plantes et herbes : haricot
 25G4(CABBAGE)|plantes et herbes : chou
@@ -1543,12 +1547,15 @@
 25G4(HYSSOP)|plantes et herbes : hysope
 25G4(IVY)|plantes et herbes : lierre
 25G4(LETTUCE)|plantes et herbes : laitue
+25G4(LOTUS)|plantes et herbes : lotus
 25G4(LUPIN)|plantes et herbes : lupin
 25G4(MANDRAKE)|plantes et herbes : mandragore
 25G4(MARJORAM)|plantes et herbes : marjolaine
+25G4(MINT)|plantes et herbes : menthe
 25G4(MISTLETOE)|plantes et herbes : gui
 25G4(NETTLE)|plantes et herbes : ortie
 25G4(ORIGANUM)|plantes et herbes : origan
+25G4(PARSLEY)|plantes et herbes : persil
 25G4(PEA)|plantes et herbes : pois
 25G4(PENNYROYAL)|plantes et herbes : pouliot
 25G4(PEONY)|plantes et herbes : pivoine
@@ -1558,6 +1565,7 @@
 25G4(RUE)|plantes et herbes : rue
 25G4(SAFFRON)|plantes et herbes : safran
 25G4(SAGE)|plantes et herbes : sauge
+25G4(SAVORY)|plantes et herbes : sarriette
 25G4(STINGING-NETTLE)|plantes et herbes : ortie brûlante
 25G4(STRAWBERRY)|plantes et herbes : fraise
 25G4(SUNDEW)|plantes et herbes : rossolis (droséra)
@@ -1573,6 +1581,7 @@
 25G41(BUTTERCUP)|fleurs : bouton d'or (renoncule)
 25G41(CARNATION)|fleurs : oeillet
 25G41(COLUMBINE)|fleurs : ancolie
+25G41(CORNFLOWER)|fleurs: bleuet
 25G41(CROCUS)|fleurs : crocus
 25G41(HELIOTROPE)|fleurs : héliotrope
 25G41(HYACINTH)|fleurs : jacinthe
@@ -1626,6 +1635,7 @@
 25GG21(CHESTNUT)|fruits : châtaigne - GG - plantes fantastiques, végétation fictive
 25GG21(FIG)|fruits : figue - GG - plantes fantastiques, végétation fictive
 25GG21(GOURD)|fruits : gourde - GG - plantes fantastiques, végétation fictive
+25GG21(HAZELNUT)|fruits: noisette - GG - plantes fantastiques, végétation fictive
 25GG21(LEMON)|fruits : citron - GG - plantes fantastiques, végétation fictive
 25GG21(MEDLAR)|fruits : nefle - GG - plantes fantastiques, végétation fictive
 25GG21(MELON)|fruits : melon - GG - plantes fantastiques, végétation fictive
@@ -1680,6 +1690,7 @@
 25GG3(MYRRH-TREE)|arbres : balsamier - GG - plantes fantastiques, végétation fictive
 25GG3(OAK)|arbres : chêne - GG - plantes fantastiques, végétation fictive
 25GG3(OLIVE-TREE)|arbres : olivier - GG - plantes fantastiques, végétation fictive
+25G3(ORANGE-TREE)|arbres : oranger - GG - plantes fantastiques, végétation fictive
 25GG3(PALM-TREE)|arbres : palmier - GG - plantes fantastiques, végétation fictive
 25GG3(PEACH-TREE)|arbres : pêcher - GG - plantes fantastiques, végétation fictive
 25GG3(PINE)|arbres : pin - GG - plantes fantastiques, végétation fictive
@@ -1763,6 +1774,7 @@
 25GG41(BUTTERCUP)|fleurs : bouton d'or (renoncule) - GG - plantes fantastiques, végétation fictive
 25GG41(CARNATION)|fleurs : oeillet - GG - plantes fantastiques, végétation fictive
 25GG41(COLUMBINE)|fleurs : ancolie - GG - plantes fantastiques, végétation fictive
+25GG41(CORNFLOWER)|fleurs : bleuet - GG - plantes fantastiques, végétation fictive
 25GG41(CROCUS)|fleurs : crocus - GG - plantes fantastiques, végétation fictive
 25GG41(HELIOTROPE)|fleurs : héliotrope - GG - plantes fantastiques, végétation fictive
 25GG41(HYACINTH)|fleurs : jacinthe - GG - plantes fantastiques, végétation fictive
@@ -2514,7 +2526,7 @@
 31A22622|poils du corps
 31A22623|poils du pubis
 31A22624|couleur de peau
-31A22624(...)|couleur de peau (avec numéro FITZPATRICK
+31A22624(...)|couleur de peau (avec numéro FITZPATRICK)
 31A2263|muscles
 31A2264|tendons
 31A2265|nerfs
@@ -2622,6 +2634,7 @@
 31A2536|main(s) dirigée(s) vers la bouche
 31A25361|siffler sur les doigts
 31A25362|tirant les coins de la bouche
+31A25363|lécher la nourriture d'un doigt
 31A2537|main(s) dirigée(s) vers une ou les deux oreilles
 31A25371|mettre la main en cornet autour de l'oreille
 31A25372|se gratter l'oreille
@@ -3196,6 +3209,7 @@
 31AA22621|cheveux - AA - figure féminine
 31AA22622|poils du corps - AA - figure féminine
 31AA22623|poils du pubis - AA - figure féminine
+31AA22624(...)|couleur de peau (avec numéro FITZPATRICK) - AA - figure féminine
 31AA2263|muscles - AA - figure féminine
 31AA2264|tendons - AA - figure féminine
 31AA2265|nerfs - AA - figure féminine
@@ -4289,7 +4303,7 @@
 32B311(SCOTS)|Européens: Écossais
 32B311(SERBIANS)|Européens: Serbes
 32B311(SLAVS)|Européens: Slaves
-32B311(SLOWAKIANS)|Européens: Slowakiens
+32B311(SLOVAKS)|Européens: Slowakiens
 32B311(SPANIARDS)|Européens: Espagnols
 32B311(SWEDES)|Européens: Suédois
 32B311(WALLOONS)|Européens: Wallons
@@ -4648,6 +4662,7 @@
 34A42|gagner de l'argent avec un singe
 34A43|gagner de l'argent avec un cochon d'Inde
 34A44|gagner de l'argent avec d'autres animaux
+34A5|charmeur de serpents
 34A9|l'homme tourmentant l'animal
 34B|animaux domestiques gardés à l'intérieur et à l'extérieur de la maison
 34B1|animaux domestiques gardés à l'intérieur de la maison
